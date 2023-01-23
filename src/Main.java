@@ -37,5 +37,18 @@ public class Main {
         System.out.println(weightDifferenceTwo);
 
 
+        var hours = 640;
+        var hoursPerEmployee = 8;
+        var totalEmployees = hours / hoursPerEmployee;
+        System.out.println("Всего работников в компании " + totalEmployees + " человек");
+
+        totalEmployees = totalEmployees + 94;
+        var hoursOne = totalEmployees * hoursPerEmployee;
+        System.out.println("Если в компании работает " + totalEmployees + " человек, то всего " + hoursOne + " часов работы может быть поделено между сотрудниками");
+
+
+
+
+
     }
 }
