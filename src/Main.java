@@ -18,7 +18,21 @@ public class Main {
         System.out.println(friend);
         friend = friend / 7;
         System.out.println(friend);
+        var frog = 3.5;
+        System.out.println(frog);
+        frog = frog * 10;
+        System.out.println(frog);
+        frog = frog / 3.5;
+        System.out.println(frog);
+        frog = frog + 4;
+        System.out.println(frog);
 
+        var weightBoxerOne = 78.2;
+        var weightBoxerTwo = 82.7;
+        var totalWeight = weightBoxerOne + weightBoxerTwo;
+        System.out.println(totalWeight);
+        var weightDifference = weightBoxerTwo % weightBoxerOne;
+        System.out.println(weightDifference);
 
 
     }
