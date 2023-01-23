@@ -33,6 +33,8 @@ public class Main {
         System.out.println(totalWeight);
         var weightDifference = weightBoxerTwo % weightBoxerOne;
         System.out.println(weightDifference);
+        var weightDifferenceTwo = weightBoxerTwo - weightBoxerOne;
+        System.out.println(weightDifferenceTwo);
 
 
     }
